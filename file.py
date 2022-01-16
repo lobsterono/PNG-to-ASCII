@@ -4,7 +4,10 @@ from PIL import Image
 #   Max width (For fitting on command line) is 83
 
 #   Prepares the image and data
+#   REPLACE WITH LOCATION YOU KEEP THE PROGRAM VVVV
 im = Image.open(r"C:\Users\Tobes\Desktop\Image downsize\ref.png")
+
+
 w,h = im.size
 px = im.load()
 data = ([(sum(list(l))/3)/2.55 for l in list(im.getdata())])
