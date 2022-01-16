@@ -2,7 +2,9 @@
 
 Simple file that converts ref.png to ASCII art in the command prompt
 
-WARNING:  Error 'Int not iterable' occurs when file size is too big to iterate over, or sometimes just as a random glitch.
+WARNING:  'INT NOT ITERABLE' occurs sometimes with grayscale / black or white images due to the way data is stored with PIL
 
 WARNING II : To work, replace the reference's location (In source code) to where you are keeping it.
 Other info is included in file
+
+
