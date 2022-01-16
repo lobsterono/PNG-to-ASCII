@@ -5,7 +5,7 @@ from PIL import Image
 
 #   Prepares the image and data
 #   REPLACE WITH LOCATION YOU KEEP THE PROGRAM VVVV
-im = Image.open(r"C:\Users\Tobes\Desktop\Image downsize\ref.png")
+im = Image.open(r"C:\Users\Tobes\Desktop\Image downsize\ref.png").convert('RGB')
 
 
 w,h = im.size
